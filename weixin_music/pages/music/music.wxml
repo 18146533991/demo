@@ -1,0 +1,82 @@
+
+<template name="music">
+
+	<!-- banner -->
+	<view class="banner">
+	    <swiper indicator-dots="true" autoplay="true" indicator-color="rgba(200,200,200,.5)" indicator-active-color="rgba(200,200,100,.5)">
+	        <block wx:for="{{banner}}" wx:key="0">
+	            <swiper-item>
+	            	<navigator open-type="" url="{{item.href}}">
+	            		<image src="{{item.src}}" />
+	            	</navigator>
+	            </swiper-item>
+	        </block>
+	    </swiper>
+	</view>
+
+
+	<!-- menu -->
+	<view class="music_menu">
+		<block wx:for="{{menu}}" wx:key="1">
+			<navigator class="menu_list" url="{{item.href}}">
+				<!--<icon class="icon" type="{{item.type}}" color="{{item.color}}" size="50" />	-->
+				<image class="icon" src="{{item.src}}"></image>
+				<text class="text">{{item.text}}</text>
+			</navigator>
+        </block>
+    </view>	
+	
+
+	<!-- 个性化推荐 -->
+	<view class="img_menu">
+		<view class="title">
+			个性化推荐<navigator class="more">更多></navigator>
+		</view>
+		<view class="img_list_con">
+			<block wx:for="{{only}}" wx:key="2">
+				<navigator class="list" url="{{item.href}}">
+					<image src="{{item.src}}" />
+					<text>{{item.text}}</text>
+				</navigator>
+			</block>
+		</view>
+	</view>
+	
+
+	<!-- 热门电台 -->
+	<view class="img_menu bg_white">
+		<view class="title">
+			热门电台<navigator class="more">更多></navigator>
+		</view>
+		<view class="img_list_con">
+			<block wx:for="{{hot}}" wx:key="3">
+				<navigator class="list" url="{{item.href}}">
+					<image src="{{item.src}}" />
+					<text class="center">{{item.text}}</text>
+				</navigator>
+			</block>
+		</view>
+	</view>
+
+
+	<!-- 合作推广 -->
+	<view class="promote">
+		<navigator url="{{promote.adHref}}" class="ad_href"><image src="{{promote.adSrc}}" /></navigator>
+		<view class="pro_con">
+			<view class="name">合作推广</view>
+			<view class="list_main">
+				<block wx:for="{{promote.list}}" wx:key="5">
+					<view class="list">
+						<navigator url="{{item.href}}" class="pic">
+							<image src="{{item.src}}"/>
+						</navigator>
+						<view class="text">
+							<text class="name">{{item.name}}</text>
+							<text class="desc">{{item.desc}}</text>
+						</view>
+					</view>
+				</block>
+			</view>
+		</view>
+	</view>
+</template>

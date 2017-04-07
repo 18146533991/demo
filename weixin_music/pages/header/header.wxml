@@ -1,0 +1,23 @@
+
+
+
+<!--<template name="header">-->
+    <view class="header_content">
+        <!--<view class="search"></view>-->
+        <image bindtap="search" src="{{headerData.searchIcon}}" class="search"></image>
+        <view class="nav">
+        	<text bindtap="navChangeFn" data-num="0" class="{{header == 0 ? 'on' : ''}}">我的</text>
+	        <text bindtap="navChangeFn" data-num="1" class="{{header == 1 ? 'on' : ''}}">乐库</text>
+	        <text bindtap="navChangeFn" data-num="2" class="{{header == 2 ? 'on' : ''}}">直播</text>
+	        <text bindtap="navChangeFn" data-num="3" class="{{header == 3 ? 'on' : ''}}">唱歌</text>
+        </view>
+        <!--<view class="menu"></view>-->
+        <image src="{{headerData.menuIcon}}" class="menu"></image>
+    </view>
+<!--</template>-->
+
+
+
+
+
+

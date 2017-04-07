@@ -1,0 +1,30 @@
+
+
+
+<!-- 底部播放信息 -->
+<!-- <template name="playMsg"> -->
+	<view class="play_msg">
+		<view class="msg">
+			<image animation="{{animationData}}" src="{{playMsg.icon}}" />
+			<view class="info">
+				<text class="music_name" animation="{{animation}}">{{playMsg.musicName}}</text>
+				<text class="user_name">{{playMsg.userName}}</text>
+			</view>
+		</view>
+
+		<view class="play_menu">
+			<image bindtap="rotate" src="{{playMsg.playIcon}}" class="play"></image>
+			<image bindtap="pause" src="{{playMsg.nextIcon}}" class="next"></image>
+			<image src="{{playMsg.menuIcon}}" class="menu"></image>
+			<audio src="{{music_src}}" id="myAudio" ></audio>
+		</view>
+		
+	</view>
+
+<!-- </template> -->
+
+
+
+
+
+

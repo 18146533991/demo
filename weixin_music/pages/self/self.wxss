@@ -1,0 +1,141 @@
+
+
+.content{
+    background:#f9f9f9;
+}
+.self_content{
+    background: #fff;
+}
+.hide{
+    display: none;
+}
+
+/*个人中心*/
+.self_head{ padding: 50rpx 50rpx 0; display: flex;}
+
+
+.self_head .head_info{ display: flex; justify-content: flex-start; flex: 1;}
+
+.self_head .head_info .user_head{ height:82rpx; width:82rpx; }
+.self_head .head_info .user_name_msg{ display: flex; position: relative;}
+
+.self_head .head_info .user_name_msg .name{ font-size:30rpx; color:#222222; position: relative; margin-left:20rpx;  }
+
+.self_head .head_info .user_name_msg .qiandao{ 
+    position: absolute; right: -80rpx; 
+}
+.self_head .head_info .user_name_msg .qiandao image{
+    width:80rpx; height:35rpx;
+}
+.self_head .head_info .user_name_msg .qiandao .point{
+    position: absolute; right:-20rpx; top:-10rpx;
+    height:16rpx; width:16rpx;
+    border-radius:50%;
+    background:red;
+}
+
+.self_head .Vip_msg{ 
+    width: 300rpx; line-height: 80rpx;
+    text-align: right; 
+     font-size:24rpx; }
+.self_head .Vip_msg .vip_ico{
+    height:34rpx;
+    width:34rpx;
+    display: inline-block;
+    vertical-align: middle;
+} 
+.self_head .Vip_msg .side{}
+
+
+
+/*菜单*/
+.self_menu{ 
+    display:flex; margin-top: 40rpx;
+    justify-content: space-around;
+    padding-bottom: 20rpx; border-bottom: 1px solid #f7f7f7;
+}
+.self_menu .list{
+    line-height: 1;
+}
+.self_menu .list image{
+    height:68rpx; width:68rpx;
+    display: block; margin:0 auto;
+}
+.self_menu .list text{
+    display: block;
+    text-align: center;
+}
+.self_menu .list .menu_name{
+    font-size:28rpx;
+    color:#080808;
+    margin-top: 20rpx;
+}
+.self_menu .list .menu_desc{
+    font-size:16rpx;
+    color:#080808;
+    margin-top: 10rpx;
+} 
+
+
+/*自建歌单*/
+.self_song_list{ margin-top: 20rpx;}
+.self_song_list .song_title{ 
+    border-top:1px solid #f7f7f7;
+    height:92rpx; line-height: 92rpx;
+}
+.self_song_list .song_title .title{
+    font-size:32rpx;
+    padding:0 20rpx 0 36rpx;
+}
+
+.self_song_list .song_title .btns{
+    float:right;
+    height:100%;
+    line-height: 92rpx;
+    margin-right: 40rpx;
+}
+.self_song_list .song_title .btns image{
+    height:40rpx; width:40rpx;
+    margin-left: 40rpx;
+}
+
+
+.song_menu{}
+.song_menu .list{
+    display: flex;
+    padding:30rpx;
+    border-bottom: 1px solid #f7f7f7;
+    border-top: 1px solid #f7f7f7;
+}
+.song_menu .list .list_pic{
+    display: block;
+    width:105rpx; height:105rpx;
+}
+.song_menu .list .desc{
+    flex: 1;
+    margin-left:34rpx;
+    line-height: 1;
+}
+.song_menu .list .desc text{
+    display: block;
+}
+.song_menu .list .desc .name_text{ font-size:34rpx; margin-top: 15rpx;}
+.song_menu .list .desc .desc_text{ font-size:20rpx; color:#5d5d5d; margin-top: 15rpx;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

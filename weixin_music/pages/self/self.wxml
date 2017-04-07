@@ -1,0 +1,109 @@
+
+
+
+<!--<template name="self">-->
+	
+	<view class="self_content">
+		<!-- {{name}} -->
+		<view class="self_head">
+			
+			<!-- 用户名和头像 -->
+			<view class="head_info">
+				<image src="../../img/self/user_ico.png" class="user_head" />
+				<view class="user_name_msg">
+					<text class="name">正在隐身、</text>
+					<view class="qiandao">
+						<image src="../../img/self/liwu.png"></image>
+						<view class="point"></view>
+					</view>
+				</view>
+			</view>
+
+			<!-- 开通音乐包 -->
+			<view class="Vip_msg">
+				<image class="vip_ico" src="../../img/self/vip.png"></image>
+				开通音乐包<text class="side">></text>
+			</view>
+
+		</view>
+
+
+		<!--menu-->
+		<view class="self_menu">
+			<view class="list">
+				<image src="../../img/self/s1.png"></image>
+				<text class="menu_name">本地歌曲</text>
+				<text class="menu_desc">62</text>
+			</view>
+			<view class="list">
+				<image src="../../img/self/s2.png"></image>
+				<text class="menu_name">下载管理</text>
+				<text class="menu_desc">62</text>
+			</view>
+			<view class="list">
+				<image src="../../img/self/s3.png"></image>
+				<text class="menu_name">最近播放</text>
+				<text class="menu_desc">62</text>
+			</view>
+			<view class="list">
+				<image src="../../img/self/s4.png"></image>
+				<text class="menu_name">我喜欢听</text>
+				<text class="menu_desc">62</text>
+			</view>
+		</view>		
+	</view>
+
+	<view class="self_content">
+		<!--自建歌单-->
+		<view class="self_song_list">
+			<view class="song_title">
+				<text class="title">自建歌单(1)</text>
+				<view class="btns">
+					<image src="../../img/self/b1.png"></image>
+					<image src="../../img/self/b2.png"></image>
+					<image src="../../img/self/b3.png"></image>
+				</view>
+			</view>
+
+			<view class="song_menu">
+				<view class="list">
+					<image class="list_pic" src="../../img/self/play_icon.png"></image>
+					<view class="desc">
+						<text class="name_text">本地</text>
+						<text class="desc_text">54首</text>
+					</view>
+				</view>
+			</view>
+		</view>
+
+		<view class="self_song_list">
+			<view class="song_title">
+				<text class="title">收藏歌单</text>
+				<view class="btns">
+					<image src="../../img/self/b2.png"></image>
+					<image src="../../img/self/b3.png"></image>
+				</view>
+			</view>
+
+			<view class="song_menu hide">
+				<view class="list">
+					<image class="list_pic" src="../../img/self/play_icon.png"></image>
+					<view class="desc">
+						<text class="name_text">本地</text>
+						<text class="desc_text">54首</text>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+
+<!--</template>-->
+
+
+
+
+
+
+
+
+

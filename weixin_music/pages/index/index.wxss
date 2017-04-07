@@ -1,0 +1,45 @@
+/**index.wxss**/
+
+.main{
+	font-family:'微软雅黑';
+}
+.content{
+	position: fixed; 
+	top:92rpx; bottom: 110rpx;left:0; right:0;
+	overflow: hidden; overflow-y: auto;
+}
+
+
+/*header*/
+@import "../header/header.wxss";
+
+
+/*底部 播放信息*/
+@import "../playMsg/msg.wxss";
+
+
+/*乐库*/
+@import "../music/music.wxss";
+
+
+/*我的*/
+@import "../self/self.wxss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

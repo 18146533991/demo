@@ -1,0 +1,92 @@
+
+/* public */
+.center{ text-align: center; }
+
+/*banner*/
+.banner{}
+.banner swiper{ width:100%; height:323rpx; }
+.banner swiper image{ width:100%; height:323rpx; }
+
+
+
+/*菜单*/
+.music_menu{ 
+	display: flex; 
+	flex-wrap: wrap; 
+	line-height: 1; 
+	padding-bottom: 30rpx;  
+}
+.music_menu .menu_list{
+	display: block;
+	width:20%; padding-top: 28rpx;
+	text-align: center;
+}
+
+.music_menu .text{
+	display: block;
+	margin-top: 10rpx;
+	text-align: center; font-size:25rpx;
+}
+.music_menu .icon{
+	height:76rpx;
+	width:76rpx;
+}
+
+
+
+/*每日推荐*/
+.img_menu{ padding:30rpx; background:#f9f9f9;  }
+
+.img_menu .title{ 
+	text-align: center; 
+	position: relative; 
+	height:65rpx; line-height: 65rpx;
+	font-size:34rpx; color:#000;
+}
+.img_menu .title .more{
+	position: absolute; right:0; top:0;
+	height:65rpx; line-height: 65rpx;
+	font-size:24rpx; color:#9a9a9a;
+}
+
+.img_menu .img_list_con{ display: flex; flex-wrap: wrap; justify-content: space-between; padding-top:24rpx; }
+.img_menu .img_list_con .list{ display:block; width:32.33%; line-height: 1; padding-bottom: 28rpx;  }
+.img_menu .img_list_con .list image{ width:222rpx; height:222rpx; }
+.img_menu .img_list_con .list text{ font-size:27rpx; display: block; margin-top: 18rpx; }
+
+.bg_white{ background: #fff; }
+
+
+
+/*合作推广*/
+
+.promote{ background:#f9f9f9;  }
+
+.promote .ad_href image{ width:100%; height:257rpx; }
+
+.promote .pro_con{ padding: 30rpx; }
+.promote .pro_con .name{
+	text-align: center; 
+	position: relative; 
+	height:65rpx; line-height: 65rpx;
+	font-size:34rpx; color:#000;
+}
+.promote .pro_con .name .more{
+	position: absolute; right:0; top:0;
+	height:65rpx; line-height: 65rpx;
+	font-size:24rpx; color:#9a9a9a;
+}
+
+.promote .pro_con .list_main{ }
+.promote .pro_con .list_main .list{ display: flex; align-items: center; line-height: 1; margin-top: 24rpx;}
+
+.promote .pro_con .list_main .list .pic{ width:126rpx; display: block;}
+.promote .pro_con .list_main .list .pic image{ width:126rpx; height:126rpx; }
+
+.promote .pro_con .list_main .list .text{ flex: 1; padding-left: 32rpx;}
+.promote .pro_con .list_main .list .text text{ display: block; text-align: left;}
+.promote .pro_con .list_main .list .text .name{ font-size:34rpx; color:#010101;}
+.promote .pro_con .list_main .list .text .desc{ font-size:24rpx; color:#5b5b5b;}
+
+
+

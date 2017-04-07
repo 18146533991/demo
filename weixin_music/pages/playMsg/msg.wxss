@@ -1,0 +1,36 @@
+
+
+
+.footer{
+	position: fixed; bottom: 0; left:0;
+	width:100%; height:109rpx; border-top:1px solid #dadada;
+	background:#fdfdfd;
+}
+.footer .play_msg{
+	display: flex;
+	padding:0 30rpx;
+}
+
+
+/*msg*/
+.footer .play_msg .msg{ display: flex; align-items: center; margin-top: 16rpx; flex: 1; }
+.footer .play_msg .msg image{ height:81rpx; width:81rpx;}
+.footer .play_msg .msg .info{ line-height: 1;  margin-left: 24rpx;}
+.footer .play_msg .msg .info text{ display: block; }
+
+.music_name{ color:#1d1d1d; font-size:28rpx; }
+.user_name{ color:#787878; font-size:20rpx; margin-top: 10rpx; }
+
+
+
+/*play*/
+.footer .play_msg .play_menu{ display: flex; align-items: center; justify-content: space-between; height:58rpx; width:300rpx; margin-top: 24rpx; }
+.footer .play_msg .play_menu image{ height:58rpx; width:58rpx; display: block; }
+
+
+
+
+
+
+
+

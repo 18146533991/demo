@@ -1,0 +1,30 @@
+
+
+.header{
+
+}
+.header_content{
+	background: #1da0ef;
+	color:#fff;
+	height:92rpx;
+	line-height: 92rpx;
+	font-size:34rpx;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 6rpx;
+}
+.header_content .search,.header_content .menu{
+	height:92rpx; 
+	width:92rpx;
+	background-size: cover;
+}
+.header_content .nav{
+	display: flex;
+}
+.header_content .nav text{
+	width:140rpx;
+	text-align: center;
+}
+.header_content .nav text.on{
+	font-weight: bold;
+}

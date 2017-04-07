@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<view class="main">
+    
+    <!-- 菜单 -->
+    <view class="header">
+        <!--<import src="../header/header.wxml"/>
+        <template is="header" data="{{header}}"/>-->
+        <include src="../header/header.wxml" />
+    </view>
+    
+    
+    <!-- 中间 -->
+    <view class="content">
+        
+        <view wx:if="{{header == 0}}" class="list">
+            <!--<import src="../self/self.wxml" />
+            <template is="self" data="{{...self}}"></template>  -->
+            <include src="../self/self.wxml" />
+        </view>
+
+        <view wx:if="{{header == 1}}" class="list">
+            <import src="../music/music.wxml" />
+            <template is="music" data="{{...music}}"></template>  
+        </view>
+
+        <view wx:if="{{header == 2}}" class="list">
+            2222
+            <!-- <import src="../music/music.wxml" />
+            <template is="music" data="{{...music}}"></template>  --> 
+        </view>
+
+        <view wx:if="{{header == 3}}" class="list">
+            3333
+            <!-- <import src="../music/music.wxml" />
+            <template is="music" data="{{...music}}"></template>   -->
+        </view>
+
+    </view>
+
+    
+    <!-- 底部 -->
+    <view class="footer" >
+        <!-- <import src="../playMsg/msg.wxml" />
+        <template is="playMsg" data="{{...playMsg}}"></template> -->
+        <include src="../playMsg/msg.wxml" />
+    </view>
+
+</view>
